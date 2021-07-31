@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <!--Main container-->
+    <div class="main-container">
+        <!--Toolbar-->
+            <div class="toolbar">
+                <button class="plus" >+</button>
+                <span class="display">10</span>
+                <button class="minus">-</button>
+                <input type="color" name="" id="" class="color-btn">
+                <img src="eraser.png" alt="" class="eraser">
+                <img src="post-it.png" alt="" class="sticker">
+                <div class="icon">
+                    <i class="fas fa-image image-btn"></i>
+                </div>
+                <div class="icon">
+                    <span class="material-icons-outlined material-icons download" style="font-size: 2rem;">
+                        download
+                        </span>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-times clear" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--Canvas container-->
+            <div class="canvas-container">
+                <!--Canvas-->
+                <canvas class="canvas" width="960" height="576"></canvas>
+            </div>
+           <!--Image Upload-->
+            <div class="image-container">
+                <input type="file" id="img" name="img" accept="image/*" class="upload"></i>
+                <button class="upload-btn">Upload</button>
+            </div>
+            
+    <script src="script.js"></script>
+
+</body>
+</html>
